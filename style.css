@@ -1,6 +1,7 @@
 img{
     width: 30px;
     height: 30px;
+    margin: 0;
 }
 
 html{
@@ -93,4 +94,62 @@ button{
     border-radius: 1.4rem;
     font-weight: 667;
     font-size: 1.2rem;
+}
+
+.dashboardDiv{
+    grid-column: 1/2;
+    grid-row: 1/4;
+    display: flex;
+    flex-direction: column;
+    gap: 3rem;
+    background-color: deepskyblue;
+    margin-left: -1rem;
+    margin-top: -1rem;
+    color: white;
+    font-weight: 667;
+    font-size: 1.3rem;
+    align-items: flex-start;
+}
+
+.dashboardDiv img{
+    filter: invert(1);
+}
+
+.dashboardTop, .dashboardMiddle, .dashboardBottom{
+    display: flex;
+    flex-direction: column;
+}
+.dashboardTop p, .dashboardMiddle p, .dashboardBottom p{
+
+     margin: 0 1rem 1rem -1rem;
+}
+
+.dashboardTop img, .dashboardMiddle img, .dashboardBottom img{
+      margin: 0 0 1rem 0;
+    
+}
+
+.dashboardTop p{
+    font-size: 2rem;
+
+}
+
+.dashboardTop{
+    margin-top: 2rem;
+    margin-left: -.4rem
+}
+
+.dashboardTop img{
+    height: 50px;
+    width: 50px;
+    margin: 0 -1rem 1rem 0;
+}
+
+
+
+.dashboard{
+    display: flex;
+    align-items: center;
+    gap: 2rem;
+    margin-left: 2rem;
 }
